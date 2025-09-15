@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <style>
+        .heading{
+            color: red;
+            background-color: yellow;
+        }
+    </style> -->
+  </head>
+  <body>
+    <!-- <h1 style="color: red; background-color: yellow;">Html form</h1> -->
+    <h1 class="heading">Html form</h1>
+    <form>
+      <div class="name-email">
+        <label> Username </label>
+        <input type="text" placeholder="Enter name" />
+        <label> User email </label>
+        <input type="email" placeholder="Enter email" />
+      </div>
+
+      <div class="no-password">
+        <label> Phone no# </label>
+        <input type="number" placeholder="Enter number" />
+        <label> User password </label>
+        <input type="password" placeholder="Enter password" />
+      </div>
+
+      <div class="clr-dt-file">
+        <label> Color </label>
+        <input type="color" /> 
+        <label> Date </label>
+        <input type="datetime-local" /> 
+        <label> Select File </label> 
+        <input type="file" /> <br />
+      </div>
+
+      <div class="description">
+        <label> Description </label> <br />
+        <textarea cols="30" rows="4" placeholder="Description"></textarea>
+      </div>
+
+      <div class="terms">
+        <input type="checkbox" id="terms" />
+        <label for="terms">I agreed to the terms & conditions.</label> 
+      </div>
+
+      <div class="short-courses">
+        <select>
+            <option>-----Select value-----</option>
+            <option>AI/ML</option>
+            <option>WEB</option>
+            <option>SMM</option>
+            <option>Cyber Security</option>
+        </select>
+      </div>
+
+      <div class="gender">
+        <label>Gender: </label>
+        <input type="radio" name="g" id="male"/>
+        <label for="male">Male</label> | 
+        <input type="radio" name="g" id="female"/>
+        <label for="female">Female</label>
+      </div>
+      
+      <div class="btns-box">
+        <input type="submit" class="btn-submit" value="Store data" /> | 
+        <input type="reset" class="btn-reset" value="Reset Data">
+      </div>
+
+    </form>
+  </body>
+</html>

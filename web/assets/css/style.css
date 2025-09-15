@@ -1,0 +1,35 @@
+.heading {
+  color: red;
+  background-color: yellow;
+}
+.name-email,
+.no-password,
+.clr-dt-file,
+.description,
+.terms,
+.short-courses,
+.gender {
+  background-color: #ccc;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+.btns-box {
+  background-color: #313131ff;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+/* button css */
+.btn-submit {
+    background-color: blue;
+    padding: 8px 16px;
+    color: ghostwhite;
+    border: none;
+}
+.btn-reset {
+    background-color: ghostwhite;
+    padding: 8px 16px;
+    color: #333;
+    border: none;
+}
