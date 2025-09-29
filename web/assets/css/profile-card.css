@@ -1,0 +1,74 @@
+body{
+    margin: 0px; 
+    background-color: #98E4FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    font-family: "verdana"
+}
+.profile-card{
+    display: flex;
+    align-items: start;
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    gap: 8px;
+}
+.profile-img{
+    background-image: url("../images/profile.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 155px;
+    width: 155px;
+    border-radius: 8px;
+
+
+}
+.content .heading{
+    font-weight: 600;
+    font-size: 20px;
+}
+.content p{
+    margin-top: 4px;
+    font-size: 14px;
+    color: #818080ff
+}
+.following{
+    background-color: #ecececff;
+    display: flex;
+    gap: 28px;
+    padding: 8px;
+    border-radius: 4px;
+}
+.following label{
+    color: #6d6d6dff;
+    font-size: 11px;
+}
+.following > label{
+    color: red
+}
+.following > div >  span{
+    display: block
+}
+.btns{
+    margin-top: 12px;
+}
+.btns > button{
+    padding: 4px 12px;
+    cursor: pointer;
+}
+.btns > button:nth-child(1){
+    background-color: white;
+    border: 2px solid #006cef;
+    color: #006cef;
+    border-radius: 4px;
+}
+.btns > button:nth-child(2){
+    background-color: #006cef;
+    border: 2px solid #006cef;
+    color: white;
+    border-radius: 4px;
+}
